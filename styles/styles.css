@@ -1,3 +1,7 @@
+:root {
+    --box-shadow: #0b628a --background-color: #0b628a
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
