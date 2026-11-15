@@ -2,7 +2,7 @@
     --primary-color: #8DC3C5;
     --secondary-color: #FFA600;
     --accent1-color: #F24D3A;
-    --accent-color: #FF9D00;
+    --accent2-color: #FF9D00;
     --heading-font: "Times New Roman";
     --body-font: Bodoni, Bembo, Akko Rounded;
 }
@@ -65,7 +65,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 article {
@@ -95,5 +95,5 @@ h2 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: var(--accent-color);
+    color: var(--accent2-color);
 }
