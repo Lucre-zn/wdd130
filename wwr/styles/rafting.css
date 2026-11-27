@@ -25,6 +25,15 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-auto-columns: max-content;
+}
+
+nav {
+    display: flex;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
