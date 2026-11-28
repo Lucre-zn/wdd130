@@ -106,3 +106,27 @@ h2 {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
 }
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 6em;
+    list-style: none;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 1rem;
+    align-items: center;
+}
